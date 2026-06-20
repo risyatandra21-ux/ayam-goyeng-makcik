@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayam Goyeng Makcik</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2>🍗 Ayam Goyeng Makcik</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#loyalty">Loyalty</a></li>
+            <li><a href="#promo">Promo</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Praktis, Ngenyangin, dan bikin kamu Ketagihan!</h1>
+        <p>Ayam suwir serundeng dengan pilihan sambal khas Makcik yang bikin nagih.</p>
+        <button onclick="scrollToMenu()">Lihat Menu</button>
+    </div>
+</section>
+
+<section id="menu">
+    <h2>Menu Signature</h2>
+
+    <div class="menu-container">
+
+        <div class="card">
+            <h3>🧄 Makcik Bawang</h3>
+            <p>Ayam suwir + serundeng + sambal bawang.</p>
+            <span>Rp35.000</span>
+        </div>
+
+        <div class="card">
+            <h3>🍅 Makcik Tomat</h3>
+            <p>Ayam suwir + serundeng + sambal tomat.</p>
+            <span>Rp35.000</span>
+        </div>
+
+        <div class="card featured">
+            <h3>🌶 Makcik Samka</h3>
+            <p>Ayam suwir + serundeng + sambal khas Makcik.</p>
+            <span>Rp38.000</span>
+        </div>
+
+    </div>
+
+    <h2>Add Ons</h2>
+
+    <div class="addons">
+
+        <div class="addon">Tahu - Rp3.000</div>
+        <div class="addon">Tempe - Rp3.000</div>
+        <div class="addon">Jukut Goreng - Rp3.000</div>
+        <div class="addon">Telur Dadar Jagung (2 pcs) - Rp7.000</div>
+
+    </div>
+</section>
+
+<section id="loyalty" class="loyalty">
+    <h2>🎁 Loyalty Program</h2>
+
+    <div class="points-card">
+        <h3>Poin Kamu</h3>
+        <div id="points">0</div>
+        <button onclick="addPoint()">Tambah Poin</button>
+    </div>
+
+    <div class="rewards">
+        <h3>Reward</h3>
+        <ul>
+            <li>Gratis Tahu</li>
+            <li>Gratis Tempe</li>
+            <li>Gratis Jukut Goreng</li>
+            <li>Gratis Telur Dadar Jagung</li>
+            <li>Voucher Diskon</li>
+        </ul>
+    </div>
+</section>
+
+<section id="promo">
+    <h2>🔥 Promo</h2>
+
+    <div class="promo-container">
+
+        <div class="promo-card">
+            <h3>Double Point Weekend</h3>
+            <p>Dapatkan 2x poin setiap Sabtu & Minggu.</p>
+        </div>
+
+        <div class="promo-card">
+            <h3>Birthday Reward</h3>
+            <p>Hadiah spesial untuk member yang berulang tahun.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="webqual">
+    <h2>Dimensi WebQual</h2>
+
+    <div class="webqual-grid">
+
+        <div>
+            <h3>Usability</h3>
+            <p>Navigasi mudah dan tampilan responsif.</p>
+        </div>
+
+        <div>
+            <h3>Information Quality</h3>
+            <p>Informasi menu dan harga jelas.</p>
+        </div>
+
+        <div>
+            <h3>Service Interaction</h3>
+            <p>Loyalty point dan reward member.</p>
+        </div>
+
+    </div>
+</section>
+
+<footer id="contact">
+    <h3>Ayam Goyeng Makcik</h3>
+    <p>Instagram: @ayamgoyengmakcik</p>
+    <p>WhatsApp: 0812-3456-7890</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
